@@ -1,12 +1,22 @@
+/*master styles */
+body  {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* nav styless*/
 .nav-wrapper {
-display:  flex;
-justify-content: space-between ;
-padding:38px ;
+    display:  flex;
+    justify-content: space-between ;
+    padding:38px ;
 }
 
 
 .left-side{
-display: flex;
+    display: flex;
 
 }
 
@@ -30,9 +40,10 @@ display: flex;
         transition: color 0.5s;
     }
  .nav-link-wrapper:hover{
-border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
  }
  .nav-link-wrapper a:hover {
     color: black;
 
  }
+/* portfolio styles*/
