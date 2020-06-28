@@ -1,0 +1,11 @@
+1. Strona internetowa z minimum 4 podstronami
+2. Struktura folderów i plików powinna byc przejzysta i jasna
+3. Strona musi byc responsywna
+4. W menu przy kazdej pozycji powinien znajdowac sie odpowiedni obrazek w formacie svg
+5. Na jednej z podstron umiescic film przy pomocy tagu <video>
+6. Kazda z pozycji menu powinna miec odmienne stany w zaleznosci od akcji
+	a. wyjsciowy
+	b. po najechaniu (animacja)
+	c. przebywanie na danej podstronie
+7. Na jednej z podstron powinna znajdowac sie lista ToDo do której bedzie mozna dodawac elementy, usuwac dowolne elementy, 
+modyfikowac dowolne elementy
