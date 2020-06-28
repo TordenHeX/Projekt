@@ -47,3 +47,8 @@ body  {
 
  }
 /* portfolio styles*/
+.portfolio-items-wrapper {
+display: gird;
+grid-template-columns: 1fr 1gr 1fr;
+
+}
