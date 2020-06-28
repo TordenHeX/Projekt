@@ -1,63 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
+
 <head>
-    <meta charset="utf-8" />
-    <title>Tordenio Tormentio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset='UTF-8'>
+  <title>Tordeno Tormiente</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container"> 
-        <div class="nav-wrapper">
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home</a>
+        </div>
 
-            <div class="left-side">
-                <div class="nav-link-wrapper">
-                    <a href="Index.html"> Home </a>
-                </div> 
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+      </div>
 
-                <div class="nav-link-wrapper">  
-                    <a href="about.html"> About </a>
-                </div>
-            </div>    
-                
-            <div class="right-side">
-                <div class="brand">
-                
-                
-                    <div>Torden HeXager</div>
-                    
-                    </div>
-                </div>
+      <div class="right-side">
+        <div class="brand">
+          
+            Torden HeXager 
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="portfolio-items-wrapper">
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/Super.jpg)"></div>
+
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/Satan.png" alt="">
             </div>
 
+            <div class="subtitle">Supers Sonic Electronic Satanic.</div>
+          </div>
+        </div>
 
-            <div class="content-wrapper">
-                <div class="portfolio-items-wrapper">
-
-                    <div class="portfolio-item-wrapper">
-                        <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
-                        
-                        <div class="img-text-wrapper">
-                            <div class="logo-wrapper">
-                                <img src="images/logos/quip.png">
-                            </div>
-
-                            <div class="subtitle"> Heil Satan!
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                   
-
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/bridge.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/moor.png" alt="">
             </div>
 
-           </div>
+            <div class="subtitle">is the name
+                I'm ahead of my game:D </div>
+          </div>
+        </div>
 
-           </div>
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/pizza.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/Pizza.png" alt="">
+            </div>
 
+            <div class="subtitle">Pizza is not assking question she understands You.</div>
+          </div>
+        </div>
 
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/Sushi.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/Sushi.png" alt="">
+            </div>
+
+            <div class="subtitle">Yo Homie do You want some sushi ??.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/10513356_1020441.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/RU.png" alt="">
+            </div>
+
+            <div class="subtitle"> IF You Are then don't be at least not too much.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/bright.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/spanish.png" alt="">
+            </div>
+
+            <div class="subtitle">Always look on the bright side, or you know, You never know when You can Expect...those Guys</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/Varg.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/cros.png" alt="">
+            </div>
+
+            <div class="subtitle">Es ist ein Krieg.</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/mc.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/fry.png" alt="">
+            </div>
+
+            <div class="subtitle">Help me i'm hungry .</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/patolog.jpg)"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logos/owel.png" alt="">
+            </div>
+
+            <div class="subtitle">Dlaczego ta strona tak wygłąda ? a o czym miałme pisać o tym że nie dostałem roweru na komunie? xD </div>
+          </div>
+        </div>
+
+     
+          </div>
+        </div>
+
+      </div>
     </div>
-    </div>
+  </div>
+
 </body>
+
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.add('image-blur');
+    });
+
+    portfolioItem.addEventListener('mouseout', () => {
+      console.log(portfolioItem.childNodes[1].classList)
+      portfolioItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
 </html>
